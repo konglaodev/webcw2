@@ -6,29 +6,58 @@
   <script type="text/javascript"
     src="https://platform-api.sharethis.com/js/sharethis.js#property=5f350c9ff8f5b100120ea577&product=inline-share-buttons"
     async="async"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </head>
 
 <body>
-
   <div>
     <ul class="topnav">
       <li><a class="active" href="index.html">ໜ້າຫຼັກ</a></li>
       <li><a href="news.html">ແນະນຳ</a></li>
       <li><a href="location.html">ສະຖານທີ່</a></li>
-      <li><a href="#contact">ຕິດຕໍ່</a></li>
+
       <li><a href="about.html">ກ່ຽວກັບເວັບ</a></li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">ຄະນະຕ່າງໆ
+
+          </button>
+          <div class="dropdown-content">
+            <a href="auksone.html">ອັກສອນສາດ</a>
+            <a href="economic.html">ເສດຖະສາດ</a>
+            <a href="fns.html">ທຳມະຊາດ</a>
+          </div>
+        </div>
+      </li>
+
     </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
 
   </div>
+
+
 
 
   <div class="hero-image">
 
     <div class="hero-text">
+      <h1 style="color: white;">ມະຫາວິທະຍາໄລແຫ່ງຊາດ</h1>
     </div>
   </div>
   <div class="row">
-    <div class="leftcolumn">
+    <div class="leftcolumnnews">
       <div class="main_content">
         <div class="main_content">
           <h2>ຄະນະວິທະຍາສາດທຳມະຊາດ</h2>
@@ -69,39 +98,102 @@
 
 
           <h4>ແນະນຳໂດຍຫຍໍ້</h4>
+          <p>ຄະນະວິທະຍາສາດທຳມະຊາດ (ຂຽນຫຍໍ້ວ່າ “ຄວທ”) ເປັນຄະນະວະຊາໜື່ງ ທີ່ສັງກັດໃນໂຄງປະກອບການຈັກຕັ້ງ
+            ຂອງມະຫາວິທະຍາໄລແຫ່ງຊາດ,
+            ມີພາລະບົດບາດເປັນເສນາທິການໃຫ້ແກ່ອະທິການບໍດີ ໃນການຈັດຕັ້ງການຮຽນ-ການສອນ ສາຂາວິຊາວິທະຍາສາດທຳມະຊາດ ເພື່ອສ້າງນັກ
+            ວິຊາການ,
+            ນັັກຄົ້ນຄວ້າ ວິທະຍາສາດ, ການອະນຸລັກ ແລະ ສົ່ງເສີມສີລະປະວັດທະນະທຳອັນດີງາມຂອງຊາດ ກໍຄືຂອງປະຊາຊົນບັນດາເຜົ່າ
+            ແລະໃຫ້ການບໍລິຫານທາງດ້ານວິຊາການແກ່ສັງຄົມ.</p>
 
         </div>
 
-        <h5>Aug 2, 2020</h5>
 
-        <h1>fixed</h1>
-
-
-      </div>
-    </div>
-    <!-- sidebar -->
-    <div class="rightcolumn">
-      <div class="sidebar">
-        <a class="icon" href="about.html">
-          <h2>ກ່ຽວກັບເວັບ</h2>
+        <div class="main_content">
+          <h2>ຄະນະອັກສອນສາດ</h2>
+          <h5>Sep 2, 2020</h5>
           <div class="content_img"></div>
-          <p></p>
-        </a>
-      </div>
-      <div class="sidebar">
-        <h3>ສະຖານທີ່ແນະນຳ</h3>
-        <div class="content_img">
-          <p><img width="100px" src="img/small/10.jpg" alt=""></p>
+
+          <div class="p_slide">
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="5" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/a5.jpg" alt="Slide 5" class="pic_content">
+            </div>
+
+
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="4" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/a8.jpg" alt="Slide 4" class="pic_content">
+            </div>
+
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="3" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/a7.jpg" alt="Slide 3" class="pic_content">
+            </div>
+
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="2" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/a4.jpg" alt="Slide 2" class="pic_content">
+            </div>
+
+            <input type="checkbox" class="input_p">
+
+            <div class="slide" slide="1" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/a2.jpg" alt="Slide 1" class="pic_content">
+            </div>
+
+            <div class="counter" count="5"> / 5</div>
+
+          </div>
+          <h3>ແນະນຳໂດຍຫຍໍ້</h3>
+          <p>ຄະນະອັກສອນສາດ (ຂຽນຫຍໍ້ວ່າ "ຄອສ") ເປັນຄະນະວິຊາໜຶ່ງທີ່ສັງກັດໃນ ໂຄງປະກອບການຈັດຕັ້ງຂອງມະຫາ ວິທະຍາໄລແຫ່ງຊາດ,
+            ພາລະບົດບາດເປັນເສນາທິການໃຫ້ກ່ອະທິການບໍດີໃນການ ຈັດຕັ້ງການຮຽນ-ການສອນ
+            ສາຂາ​ວິຊາວັນນະຄະດີ-ພາສາສາດເພື່ອສ້າງນັກວິຊາການ,
+            ນັກຄົ້ນຄວ້າວິທະຍາສາດ, ການ​ອະນຸລັກ ແລະ ສົ່ງ​ເສີມ
+            ສິລະປະ​ວັດ​ທະນະ​ທຳ​ອັນ​ດີງາມຂອງ​ຊາດກໍ​ຄື​ຂອງ​ປະຊາຊົນ​ບັນດາ​ເຜົ່າ ​ແລະ​
+            ໃຫ້ການ​ບໍລິການ​ທາງ​ດ້ານ​ວິຊາການ ແກ່​ສັງຄົມ.</p>
         </div>
-        <div class="content_img">
-          <p><img src="img/7.jpg" alt="" class="image_slidebar"></p>
+        <div class="main_content">
+          <h2>ຄະນະເສດຖະສາດບໍລິຫານທຸລະກິດ</h2>
+          <h5>Sep 2, 2020</h5>
+          <div class="content_img"></div>
+
+          <div class="p_slide">
+
+
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="3" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/n5.jpg" alt="Slide 3" class="pic_content">
+            </div>
+
+            <input type="checkbox" class="input_p">
+            <div class="slide" slide="2" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/e1.jpg" alt="Slide 2" class="pic_content">
+            </div>
+
+            <input type="checkbox" class="input_p">
+
+            <div class="slide" slide="1" annot="ຮູບຕົວຢ່າງ">
+              <img src="img/e2.jpg" alt="Slide 1" class="pic_content">
+            </div>
+
+            <div class="counter" count="3"> / 3</div>
+
+          </div>
+          <div class="btt"><a href="">ອ່ານເພີ່ມເຕີມ</a></div>
+
+          <h4>ແນະນຳໂດຍຫຍໍ້</h4>
+          <p>ຄະນະເສດຖະສາດ ແລະ ບໍລິຫານທຸລະກິດ ເປັນຄະນະນໍາໜ້າໃນການສ້າງຊັບພະຍາກອນມະນຸດທີ່ມີຄວາມຊ່ຽວຊານທາງດ້ານວິຊາການ ແລະ
+            ການຄົ້ນຄວ້າວິທະຍາສາດ ສະເພາະດ້ານເພື່ອຕອບສະໜອງນັກວິຊາການທີ່ມີຄຸນນະພາບ ໃຫ້ແກ່ການພັດທະນາ ເສດຖະກິດ-ສັງຄົມ ຂອງຊາດ
+            ແລະ
+            ເຊື່ອມໂຍງກັບພາກພື້ນ ແລະ ສາກົນ.</p>
+
         </div>
-        <div class="content_img">
-        </div>
+
       </div>
-      <div class="sidebar">
-        <div class="sharethis-inline-share-buttons"></div>
-      </div>
+      <!-- sidebar -->
+
+
+
     </div>
 
   </div>
@@ -110,9 +202,10 @@
 
     <a href="#">&laquo;</a>
     <a class="active" href="index.html">1</a>
-    <a href="Page2.html">2</a>
-    <a href="#">3</a>
-    <a href="#">&raquo;</a>
+    <a href="news.html">2</a>
+    <a href="location.html">3</a>
+
+    <a href="about.html">&raquo;</a>
 
   </div>
   <br>
