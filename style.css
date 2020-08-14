@@ -385,7 +385,14 @@ body {
   position: relative;
   margin-top: 10px;
 }
-.profile {
+.houp-kong {
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 10px;
+}
+.profile,
+.profile-kong {
   position: relative;
   margin: 10px;
   border: 2px solid rgb(255, 191, 13);
@@ -395,6 +402,9 @@ body {
   font-family: Letters for Learners;
   background-color: #fff;
   border-radius: 8px;
+}
+.profile-kong {
+  margin-left: 25%;
 }
 @media screen and (max-width: 800px) {
   .profile {

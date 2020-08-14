@@ -1,0 +1,31 @@
+.kong {
+  float: left;
+  width: 100%;
+}
+.fy {
+  float: left;
+  width: 50%;
+}
+.to {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 760px) {
+  .to,
+  .fy,
+  .kong {
+    width: 100%;
+    float: left;
+  }
+  .houp-kong {
+    width: 250px;
+  }
+  .profile-kong {
+    width: 300px;
+    margin-left: 5%;
+  }
+}
+.CON {
+  width: 100%;
+  float: left;
+}
